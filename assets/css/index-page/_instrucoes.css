@@ -1,0 +1,16 @@
+.instrucoes{
+    margin: 10rem 5%;
+}
+
+.instrucoes h2{
+    margin-bottom: 1rem;
+}
+
+.instrucoes details{
+    margin: 1rem 0;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 1px solid var(--cor-1);
+}
+

@@ -1,0 +1,112 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.titulo-destaque{
+    font-size: 48px;
+    font-weight: 800;
+    background-image: var(--degrade-1);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    /*TODOS OS TITULOS COM ESSA CLASSE TERAM UM DEGRADÊ DE FUNDO NA FONTE E O PADRÃO PRÉ-DEFINIDO*/
+}
+
+.titulo{
+    font-size: 24px;
+    font-weight: 600;
+    color: var(--cor-1);
+    /*TODOS OS TITULOS COM ESSA CLASSE TERAM A COR VERDE E O PADRÃO SE FONTE PRÉ-DEFINIDO*/
+}
+
+.subtitulo{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--cor-1);
+    line-height: 25px;
+    /*TODOS OS SUBTITULO COM ESSA CLASSE TERAM A COR VERDE E O PADRÃO DE FONTE PRÉ-DEFINIDO*/
+}
+
+.texto{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--cor-1);
+    line-height: 25px;
+    /*TODOS OS TEXTOS COM ESSA CLASSE TERAM A COR VERDE E O PADRÃO DE FONTE PRÉ-DEFINIDO*/
+}
+
+.opacity{
+    opacity: 50%;
+    /*TODOS QUE TIVEREM ESTA CLASSE TERAM OPACIDADE EM 50%*/
+}
+
+.cinza{
+    color: var(--cor-5) !important;
+    /*TODOS OS TEXTOS E TITULOS COM ESSA CLASSE TERAM A COR CINZA*/
+}
+
+.branco{
+    color: var(--cor-2);
+    /*TODOS OS TEXTOS E TITULOS COM ESSA CLASSE TERAM A COR BRANCA*/
+}
+
+.verde-claro{
+    color: var(--cor-3);
+    /*TODOS OS TEXTOS E TITULOS COM ESSA CLASSE TERAM A COR VERDE CLARO*/
+}
+
+.font-light{
+    font-weight: 300;
+}
+
+.font-regular{
+    font-weight: 400;
+}
+
+.font-medium{
+    font-weight: 500;
+}
+
+.font-semibold{
+    font-weight: 600;
+}
+
+.font-bold{
+    font-weight: 700;
+}
+
+.item-menu{
+    color: var(--cor-1);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.list-style-orderly{
+    list-style: decimal !important;
+}
+
+li{
+    list-style: none;
+    line-height: 35px !important;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container-direction-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.space-between{
+    justify-content: space-between;
+    width: 100%;
+}

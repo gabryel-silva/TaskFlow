@@ -1,0 +1,22 @@
+.sobre-a-ferramenta{
+    margin: 5rem 5%;
+}
+
+.sobre-a-ferramenta .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sobre-a-ferramenta .col-left{
+    width: 40%;
+}
+
+.sobre-a-ferramenta .col-left h2{
+    margin-bottom: 1rem;
+}
+
+#sobreFerramenta:target{
+    scroll-margin-top: 10rem;
+}

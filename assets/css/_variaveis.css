@@ -1,0 +1,12 @@
+:root{
+/*PALETA DE CORES*/
+    --cor-1: #278EA5;
+    --cor-2: #FFFFFF;
+    --cor-3: #21E6C1;
+    --cor-4: #1F4287;
+    --cor-5: #8C8C8C;
+    --degrade-1: linear-gradient(93.43deg, #21E6C1 -7.46%, #278EA5 105.44%);
+    --degrade-2: linear-gradient(180deg, rgba(7, 30, 61, 0.6) 0%, rgba(39, 142, 165, 0.6) 101.11%);
+/*SOMBRA*/
+    --shadow-default: 0px 0px 10px rgba(0, 0, 0, 0.25);
+}

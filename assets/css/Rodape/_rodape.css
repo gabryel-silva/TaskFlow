@@ -1,0 +1,47 @@
+footer{
+    padding: 5rem 0 2rem;
+    border-top: 1px solid var(--cor-1);
+}
+
+footer .col-left{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    align-items: center;
+    order: 2;
+}
+
+footer .col-right{
+    width: 70%;
+    order: 1;
+}
+
+footer .col-left a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+footer .col-left a:hover{
+    color: var(--cor-1);
+    transition: .5s ease-in-out;
+}
+
+footer .col-left a img{
+    margin-right: .5rem;
+}
+
+footer .col-right h2{
+    margin-bottom: .5rem;
+}
+
+footer > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer > div:nth-child(2){
+    margin-top: 4rem;
+}

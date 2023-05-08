@@ -11,3 +11,8 @@
 @import url('/assets/css/cadastro-page/_titulo-page.css');
 @import url('/assets/css/login-page/_banner.css');
 @import url('/assets/css/login-page/_formulario.css');
+@import url('/assets/css/Sidebar/_sidebar.css');
+@import url('/assets/css/Botoes/_botoes.css');
+@import url('/assets/css/Bg-body/_bg-body.css');
+@import url('/assets/css/pagina-sucesso/cadastro-realizado.css');
+@import url('/assets/css/Mensagem-error/mensagem-erro.css');

@@ -110,3 +110,7 @@ a{
     justify-content: space-between;
     width: 100%;
 }
+
+.text-center{
+    text-align: center;
+}
